@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="String" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHM-Si-A4m">
+                                <rect key="frame" x="276" y="95" width="49" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.050980392159999999" green="0.47843137250000001" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GxQ-Jd-9RF">
+                                <rect key="frame" x="70" y="169" width="460" height="30"/>
+                                <color key="backgroundColor" red="0.54250569910000002" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="简体中文">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseSimplified" destination="BYZ-38-t0r" eventType="touchUpInside" id="b6B-Xu-J0s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C5R-lc-n65">
+                                <rect key="frame" x="70" y="229" width="460" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.35294117650000001" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="英文">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseEnglish" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tky-YP-9PQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NWb-3Y-cxW">
+                                <rect key="frame" x="70" y="289" width="460" height="30"/>
+                                <color key="backgroundColor" red="0.54250569910000002" green="1" blue="0.6659503229" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="系统">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chooseSystem" destination="BYZ-38-t0r" eventType="touchUpInside" id="rMb-dl-gxE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GxQ-Jd-9RF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="6A5-G3-6gV"/>
+                            <constraint firstItem="C5R-lc-n65" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="7e6-F1-GvC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GxQ-Jd-9RF" secondAttribute="trailing" constant="50" id="HM9-9b-Ne3"/>
+                            <constraint firstItem="HHM-Si-A4m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="75" id="JmH-Cs-5Cb"/>
+                            <constraint firstItem="NWb-3Y-cxW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="MK7-Ea-tCj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C5R-lc-n65" secondAttribute="trailing" constant="50" id="PJp-sf-Wup"/>
+                            <constraint firstItem="HHM-Si-A4m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZpA-YO-fUr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NWb-3Y-cxW" secondAttribute="trailing" constant="50" id="fJj-oV-Jgj"/>
+                            <constraint firstItem="GxQ-Jd-9RF" firstAttribute="top" secondItem="HHM-Si-A4m" secondAttribute="bottom" constant="50" id="hHM-or-LKB"/>
+                            <constraint firstItem="GxQ-Jd-9RF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hal-7Q-4lE"/>
+                            <constraint firstItem="C5R-lc-n65" firstAttribute="top" secondItem="GxQ-Jd-9RF" secondAttribute="bottom" constant="30" id="iZw-xn-s9z"/>
+                            <constraint firstItem="NWb-3Y-cxW" firstAttribute="top" secondItem="C5R-lc-n65" secondAttribute="bottom" constant="30" id="ped-7w-fti"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="hal-7Q-4lE"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="showLabel" destination="HHM-Si-A4m" id="Rgf-Tk-eLJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157" y="421"/>
+        </scene>
+    </scenes>
+</document>

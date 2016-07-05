@@ -14,8 +14,8 @@
 		3B71B7B11D2A3A520073A3BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B71B7AF1D2A3A520073A3BB /* LaunchScreen.storyboard */; };
 		3B71B7BC1D2A3A520073A3BB /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71B7BB1D2A3A520073A3BB /* StringTests.swift */; };
 		3B71B7C71D2A3A520073A3BB /* StringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71B7C61D2A3A520073A3BB /* StringUITests.swift */; };
-		3B71B7F21D2A53020073A3BB /* YBLocalized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B71B7F41D2A53020073A3BB /* YBLocalized.strings */; };
-		3B71B7FB1D2A617A0073A3BB /* YBLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71B7FA1D2A617A0073A3BB /* YBLocalizedString.swift */; };
+		3B71B7F21D2A53020073A3BB /* VDLocalized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B71B7F41D2A53020073A3BB /* VDLocalized.strings */; };
+		3B71B7FB1D2A617A0073A3BB /* VDLocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B71B7FA1D2A617A0073A3BB /* VDLocalizedString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +49,9 @@
 		3B71B7C21D2A3A520073A3BB /* StringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B71B7C61D2A3A520073A3BB /* StringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringUITests.swift; sourceTree = "<group>"; };
 		3B71B7C81D2A3A520073A3BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B71B7F31D2A53020073A3BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/YBLocalized.strings"; sourceTree = "<group>"; };
-		3B71B7F51D2A53140073A3BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/YBLocalized.strings; sourceTree = "<group>"; };
-		3B71B7FA1D2A617A0073A3BB /* YBLocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBLocalizedString.swift; sourceTree = "<group>"; };
+		3B71B7F31D2A53020073A3BB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/VDLocalized.strings"; sourceTree = "<group>"; };
+		3B71B7F51D2A53140073A3BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/VDLocalized.strings; sourceTree = "<group>"; };
+		3B71B7FA1D2A617A0073A3BB /* VDLocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDLocalizedString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +104,12 @@
 			children = (
 				3B71B7A61D2A3A520073A3BB /* AppDelegate.swift */,
 				3B71B7A81D2A3A520073A3BB /* ViewController.swift */,
-				3B71B7FA1D2A617A0073A3BB /* YBLocalizedString.swift */,
+				3B71B7FA1D2A617A0073A3BB /* VDLocalizedString.swift */,
 				3B71B7AA1D2A3A520073A3BB /* Main.storyboard */,
 				3B71B7AD1D2A3A520073A3BB /* Assets.xcassets */,
 				3B71B7AF1D2A3A520073A3BB /* LaunchScreen.storyboard */,
 				3B71B7B21D2A3A520073A3BB /* Info.plist */,
-				3B71B7F41D2A53020073A3BB /* YBLocalized.strings */,
+				3B71B7F41D2A53020073A3BB /* VDLocalized.strings */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B71B7B11D2A3A520073A3BB /* LaunchScreen.storyboard in Resources */,
-				3B71B7F21D2A53020073A3BB /* YBLocalized.strings in Resources */,
+				3B71B7F21D2A53020073A3BB /* VDLocalized.strings in Resources */,
 				3B71B7AE1D2A3A520073A3BB /* Assets.xcassets in Resources */,
 				3B71B7AC1D2A3A520073A3BB /* Main.storyboard in Resources */,
 			);
@@ -267,7 +267,7 @@
 			files = (
 				3B71B7A91D2A3A520073A3BB /* ViewController.swift in Sources */,
 				3B71B7A71D2A3A520073A3BB /* AppDelegate.swift in Sources */,
-				3B71B7FB1D2A617A0073A3BB /* YBLocalizedString.swift in Sources */,
+				3B71B7FB1D2A617A0073A3BB /* VDLocalizedString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,13 +319,13 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		3B71B7F41D2A53020073A3BB /* YBLocalized.strings */ = {
+		3B71B7F41D2A53020073A3BB /* VDLocalized.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3B71B7F31D2A53020073A3BB /* zh-Hans */,
 				3B71B7F51D2A53140073A3BB /* en */,
 			);
-			name = YBLocalized.strings;
+			name = VDLocalized.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -419,8 +419,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = String/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.lyb.String;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vd.String;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -430,8 +431,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = String/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.lyb.String;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.vd.String;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

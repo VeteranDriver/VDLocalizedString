@@ -2,7 +2,7 @@
 //  StringTests.swift
 //  StringTests
 //
-//  Created by 李延博 on 16/7/4.
+//  Created by lyb on 16/7/4.
 //  Copyright © 2016年 lyb. All rights reserved.
 //
 
